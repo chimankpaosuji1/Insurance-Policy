@@ -1,11 +1,6 @@
 import styles from './Sidebar.module.scss'
 import rusalbaImg from '../assets/png/rusalba.png'
 import logoSvg from '../assets/svg/logo.svg'
-import company1 from '../assets/svg/company1.svg'
-import policy1 from '../assets/svg/policy1.svg'
-import report1 from '../assets/svg/report1.svg'
-import account1 from '../assets/svg/account1.svg'
-import rec1 from '../assets/svg/rec1.svg'
 import { Link, useLocation } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faTableCellsLarge, faShieldCat, faBug, faCircleUser, faFileInvoice, faWindowRestore, faTrashAlt, faFileLines, faArrowRightFromBracket } from '@fortawesome/free-solid-svg-icons';
