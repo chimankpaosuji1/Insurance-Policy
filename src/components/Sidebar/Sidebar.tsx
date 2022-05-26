@@ -1,9 +1,14 @@
 import styles from './Sidebar.module.scss'
 import rusalbaImg from '../assets/png/rusalba.png'
 import logoSvg from '../assets/svg/logo.svg'
+import company1 from '../assets/svg/company1.svg'
+import policy1 from '../assets/svg/policy1.svg'
+import report1 from '../assets/svg/report1.svg'
+import account1 from '../assets/svg/account1.svg'
+import rec1 from '../assets/svg/rec1.svg'
 import { Link, useLocation } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {faWindowRestore, faTrashAlt, faFileLines, faArrowRightFromBracket } from '@fortawesome/free-solid-svg-icons';
+import {faTableCellsLarge, faShieldCat, faBug, faCircleUser, faFileInvoice, faWindowRestore, faTrashAlt, faFileLines, faArrowRightFromBracket } from '@fortawesome/free-solid-svg-icons';
 
 
 
@@ -42,7 +47,7 @@ export default function Sidebar () {
                             } 
                             to="/overview"
                         > 
-                        <FontAwesomeIcon icon={faTrashAlt} size="lg" color="#515151" className={styles.icon}/>
+                        <FontAwesomeIcon icon={faTableCellsLarge} size="lg" color="#515151" className={styles.icon}/>
                            Overview
                         </Link>
                     </li>
@@ -55,7 +60,8 @@ export default function Sidebar () {
                             } 
                             to="/policy"
                         > 
-                        <FontAwesomeIcon icon={faTrashAlt} size="lg" color="#515151" className={styles.icon}/>
+                        <FontAwesomeIcon icon={faShieldCat} size="lg" color="#515151" className={styles.icon}/>
+                        {/* <img src={policy1} alt="logo" className={styles.icon}/> */}
                            Policy
                         </Link>
                     </li>
@@ -68,7 +74,8 @@ export default function Sidebar () {
                             } 
                             to="/reports"
                         > 
-                        <FontAwesomeIcon icon={faWindowRestore} size="lg" color="#515151" className={styles.icon}/>
+                        <FontAwesomeIcon icon={faBug} size="lg" color="#515151" className={styles.icon}/>
+                        {/* <img src={report1} alt="logo" className={styles.icon}/> */}
                            Reports
                         </Link>
                     </li>
@@ -81,7 +88,8 @@ export default function Sidebar () {
                             } 
                             to="/company"
                         > 
-                        <FontAwesomeIcon icon={faTrashAlt} size="lg" color="#515151" className={styles.icon}/>
+                        <FontAwesomeIcon icon={faWindowRestore} size="lg" color="#515151" className={styles.icon}/>
+                        {/* <img src={company1} alt="logo" className={styles.icon}/> */}
                            Company
                         </Link>
                     </li>
@@ -94,7 +102,8 @@ export default function Sidebar () {
                             } 
                             to="/user-account"
                         > 
-                        <FontAwesomeIcon icon={faFileLines} size="lg" color="#515151" className={styles.icon}/>
+                        <FontAwesomeIcon icon={faCircleUser} size="lg" color="#515151" className={styles.icon}/>
+                        {/* <img src={account1} alt="logo" className={styles.icon}/> */}
                            User Account
                         </Link>
                     </li>
@@ -107,7 +116,7 @@ export default function Sidebar () {
                             } 
                             to="/history"
                         > 
-                        <FontAwesomeIcon icon={faTrashAlt} size="lg" color="#515151" className={styles.icon}/>
+                        <FontAwesomeIcon icon={faFileLines} size="lg" color="#515151" className={styles.icon}/>
                            History
                         </Link>
                     </li>
