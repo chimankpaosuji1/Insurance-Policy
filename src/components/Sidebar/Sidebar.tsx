@@ -3,7 +3,7 @@ import rusalbaImg from '../assets/png/rusalba.png'
 import logoSvg from '../assets/svg/logo.svg'
 import { Link, useLocation } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {faTableCellsLarge, faShieldCat, faBug, faCircleUser, faFileInvoice, faWindowRestore, faTrashAlt, faFileLines, faArrowRightFromBracket } from '@fortawesome/free-solid-svg-icons';
+import {faTableCellsLarge, faShieldCat, faBug, faCircleUser, faWindowRestore, faFileLines, faArrowRightFromBracket } from '@fortawesome/free-solid-svg-icons';
 
 
 
