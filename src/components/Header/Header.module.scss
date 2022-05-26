@@ -1,0 +1,47 @@
+.header {
+    position: fixed;
+    background: #FFFFFF;
+    box-shadow: 3px 5px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 0px 20px 0px 0px;
+    top: 0;
+    right: 0;
+    width: 75vw;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    z-index: -1;
+}
+
+.headerNav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.headerUI {
+    display: flex;
+    flex-direction: row;
+    margin-left: 2rem;
+    
+}
+
+.headerNavLink {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    outline: none;
+    color: #42474A;
+    font-size: 16px;
+    font-weight: 400;
+
+    &Actice {
+        @extend .headerNavLink;
+        color: #713BDB;
+    }
+}
+
+.headerNavItem {
+    
+    padding-right: 2rem;
+}

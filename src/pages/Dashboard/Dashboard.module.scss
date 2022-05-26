@@ -1,0 +1,169 @@
+.dashboard {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    top: 4rem;
+    width: 75vw;
+    background-color: #F4F5F9;
+    z-index: -2;
+    height: 100%;
+    overflow: hidden;
+}
+
+.dashboardContent {
+    margin: 3rem;
+    width: 981px;
+    height: 306px;
+    background: #F8F9FF;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+    z-index: -3;
+}
+
+.slider2 {
+    position: relative;
+    z-index: 2;
+}
+.slider5 {
+    position: absolute;
+    top: 3.7rem;
+    z-index: 1;
+}
+
+.slider3 {
+    position: absolute;
+    top: 7.5rem;
+    z-index: 3;
+    overflow: hidden;
+}
+
+.headertext {
+    position: absolute;
+    top: 8rem;
+    right: 10rem;
+    // margin-right: 4rem;
+    align-content: center;
+    justify-content: center;
+    
+    // text-align: center;
+    z-index: 4;
+}
+
+.sliderContent1 {
+    // text-align: center;
+    padding: 20px;
+    font-weight: 600;
+    font-size: 33px;
+    line-height: 44px;
+
+    
+}
+
+.sliderContent2 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 29px;
+    text-decoration: none ;
+    border: 1px dotted #42474A ;
+    border-radius: 5px;
+    margin-left: 5rem;
+
+    color: #42474A;
+}
+.section {
+    margin-top: 1rem;
+}
+.disbursement {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+    justify-content: space-between;
+    
+    
+}
+
+.disbursementSection {
+    background-color: #fff;
+    padding: 2rem 2rem 0 2rem;
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.06);
+}
+
+.disbursementValue {
+    position: relative;
+    font-weight: 400;
+    font-size: 55px;
+    line-height: 73px;
+
+    color: #42474A;
+}
+
+.currency {
+    
+    width: 2rem;
+    height: 2rem;
+    font-size: 35px;
+    color: #713BDB;
+    // background-color: red;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    // top:1rem;
+    padding-left: 7rem;
+    z-index: 7;
+    // right: 0;
+
+}
+.disbursementText {
+    font-size: 17px;
+    line-height: 23px;
+    margin-bottom: 2rem;
+}
+
+.p1 {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 23px;
+    margin-bottom: 1rem;
+    color: #42474A;
+}
+
+
+.sp2 {
+    position: absolute;
+    font-size: 13px;
+}
+
+
+.progress {
+   
+    height: 5px;
+    background: linear-gradient(90deg, #ECECEC 0%, #F2F1F1 111.47%);
+    border-radius: 2px;
+    margin-bottom: 1.5rem;
+
+    &2 {
+        @extend .progress;
+        margin-bottom: none;
+    }
+      
+}
+
+.progressBar {
+    
+        height: 100%;
+        background: linear-gradient(90deg, #33D69F 0%, #50EDB8 111.47%);
+        color: #fff;
+        text-align: center;
+        border-radius: 2px;
+    &2 {
+        @extend .progressBar;
+        background: linear-gradient(90deg, #713BDB 0%, #A886E9 111.47%);
+    }
+    
+}

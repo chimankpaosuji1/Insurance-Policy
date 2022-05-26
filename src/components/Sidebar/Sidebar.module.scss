@@ -1,0 +1,130 @@
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 25vw;
+    background-color: #ffff;
+    color: #A2A4B9;
+    box-shadow: 10px 3px 15px rgba(0, 0, 0, 0.05);
+    border-radius: 20px 0px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.sidebarContent {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.profileDetails {
+    margin-top: 2rem;
+    text-align: center;
+
+}
+
+.logo {
+    display: flex;
+    align-content: center;
+    // padding-left: 3rem;
+}
+
+.logoImg {
+
+}
+
+.logoName {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 21px;
+    padding-left: 0.5rem;
+    color: #000000;
+}
+
+.profileImageDiv {
+    // padding-left: 6rem;
+    margin-top: 22px;
+}
+
+.welcome {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    color: #888CB7;
+}
+
+.welcomeNote {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 13px;
+
+}
+
+.plan {
+    margin-bottom: 20px;
+    line-height: 19px;
+}
+
+.planNewProfile {
+    background: #713BDB;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.12);
+    border-radius: 7px;
+    padding: 0.5rem 1rem;
+}
+
+.planTypeNewProfile,
+.planTypeNewProfileAdd {    
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFBFB;    
+    text-decoration: none;
+}
+
+.planTypeNewProfileAdd {
+    padding-left: 0.5rem;
+}
+
+.sidebarNav {    
+    margin-bottom: 3rem;
+}
+
+.sidebarNavItem {
+    margin: 21px 0;
+    font-size: 16px;
+}
+
+.sidebarNavLink {
+    text-decoration: none;
+    outline: none;
+    color: #A2A4B9;
+    font-size: 16px;
+    font-weight: 400;
+
+    &Actice {
+        @extend .sidebarNavLink;
+        color: #713BDB;
+    }
+}
+.icon {
+    padding-right: 1rem;
+    color: #A2A4B9;
+
+}
+
+.logout {
+    display: flex;
+    margin-top: -3rem;
+    text-decoration: none;
+    color: #A2A4B9;
+    font-weight: 600;
+    font-size: 18px;
+}
