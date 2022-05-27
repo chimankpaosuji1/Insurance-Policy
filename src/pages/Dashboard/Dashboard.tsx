@@ -11,16 +11,16 @@ export default function Dashboard () {
             <div className={styles.dashboardContent}>
                
                 <div className={styles.dashboardContentSlider}>
-                    
+                <div className={styles.headertext}>
+                            <p className={styles.sliderContent1}>20% Safe On Your First Account</p>
+                            <Link className={styles.sliderContent2} to='/#'>NEWBIE20 </Link>
+                    </div>
                     <div className={styles.sliderImage}>
                                                 
                         <img src={Area_2vv} alt="" className={styles.slider2} style={{opacity:'10%', marginTop:'2rem'}} />
                         <img src={agent} alt="" className={styles.slider5}/>
                         <img src={Area_3} alt="" className={styles.slider3} style={{opacity:'10%'}}/>
-                        <div className={styles.headertext}>
-                            <p className={styles.sliderContent1}>20% Safe On Your First Account</p>
-                            <Link className={styles.sliderContent2} to='/#'>NEWBIE20 </Link>
-                    </div>
+                        
                     </div>
                     
 
