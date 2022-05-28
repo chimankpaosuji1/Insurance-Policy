@@ -10,9 +10,15 @@
 .dashboardContent {
     margin: 3rem;
     width: 981px;
+    // height: 311px;
+    // background: #F8F9FF;
+    // 
+    z-index: -3;
+}
+.dashboardContentSlider {
+    height: 310px;
     background: #F8F9FF;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
-    z-index: -3;
 }
 
 .slider2 {
