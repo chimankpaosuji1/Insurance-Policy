@@ -5,6 +5,31 @@ import Area_3 from '../../components/assets/png/dasboard/Area_3.png'
 import agent from '../../components/assets/png/dasboard/agent.png'
 
 export default function Dashboard () {
+
+    const spendCategories = [
+        {
+            id: 1,
+            category: "Policy",
+            price: 100,
+        },
+        {
+            id: 2,
+            category: "Claim",
+            price: 800,            
+        },
+    ];
+    const spendCategories2 = [
+        {
+            id: 1,
+            category: "Policy",
+            price: 1100,
+        },
+        {
+            id: 2,
+            category: "Claim",
+            price: 1400,            
+        },
+    ];
     return (
         <>
          <main className={styles.dashboard}>
@@ -102,6 +127,93 @@ export default function Dashboard () {
                         </div>                                            
                     </div>
                 </section>
+                {/* Another Way of displaying the disbursement section */}
+                {/* <section className={styles.section}>
+                    <div className={styles.disbursement}>
+                        <div className={styles.disbursementSection}>
+                            <div>
+                            <p className={styles.currency}>$</p>
+                            <p className={styles.disbursementValue}>1000</p>
+                            
+                            </div>
+                            <p className={styles.disbursementText}>Total Value of Disbursement</p>
+
+                            <ul>
+                                {spendCategories.map(category =>
+                                   <li key={category.id}>
+                                   <div className={styles.spendCategory}>
+                                       <p className={styles.spendCategoryName}>{category.category}</p>
+                                       <p className={styles.sendCategoryPrice}>{category.price}<sub>$</sub></p>
+                                      
+                                   </div>
+                                   <div className={styles.spendCategoryBar}>
+                                       <div className={styles.spendCategoryColoredBar}></div>
+                                   </div>
+                               </li> 
+                               
+                                    )}
+                                    
+                                
+                            </ul>                            
+                        </div>
+                        <div className={styles.disbursementSection}>
+                            <div>
+                            <p className={styles.currency}>$</p>
+                            <p className={styles.disbursementValue}>2500</p>
+                            
+                            </div>
+                            <p className={styles.disbursementText}>Total Value of Disbursement</p>
+
+                            <ul>
+                                {spendCategories2.map(category =>
+                                   <li key={category.id}>
+                                   <div className={styles.spendCategory}>
+                                       <p className={styles.spendCategoryName}>{category.category}</p>
+                                       <p className={styles.sendCategoryPrice}>{category.price}<sub>$</sub></p>
+                                      
+                                   </div>
+                                   <div className={styles.spendCategoryBar}>
+                                       <div className={styles.spendCategoryColoredBar}></div>
+                                   </div>
+                               </li> 
+                               
+                                    )}
+                                    
+                                
+                            </ul>                            
+                        </div>
+                        <div className={styles.disbursementSection}>
+                            <div>
+                            <p className={styles.currency}>$</p>
+                            <p className={styles.disbursementValue}>2500</p>
+                            
+                            </div>
+                            <p className={styles.disbursementText}>Total Value of Disbursement</p>
+
+                            <ul>
+                                {spendCategories2.map(category =>
+                                   <li key={category.id}>
+                                   <div className={styles.spendCategory}>
+                                       <p className={styles.spendCategoryName}>{category.category}</p>
+                                       <p className={styles.sendCategoryPrice}>{category.price}<sub>$</sub></p>
+                                      
+                                   </div>
+                                   <div className={styles.spendCategoryBar}>
+                                       <div className={styles.spendCategoryColoredBar}></div>
+                                   </div>
+                               </li> 
+                               
+                                    )}
+                                    
+                                
+                            </ul>                            
+                        </div>
+
+                        
+                       
+                        
+                    </div>
+                </section> */}
 
                 
             </div>

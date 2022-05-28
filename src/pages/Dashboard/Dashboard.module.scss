@@ -1,19 +1,15 @@
 .dashboard {
     position: absolute;
     right: 0;
-    bottom: 0;
     top: 4rem;
     width: 75vw;
     background-color: #F4F5F9;
     z-index: -2;
-    height: 100%;
-    overflow: hidden;
 }
 
 .dashboardContent {
     margin: 3rem;
     width: 981px;
-    height: 306px;
     background: #F8F9FF;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
     z-index: -3;
@@ -160,4 +156,37 @@
         background: linear-gradient(90deg, #713BDB 0%, #A886E9 111.47%);
     }
     
+}
+
+.spendCategory {
+    display: flex;
+    justify-content: space-between;
+}
+
+.spendCategoryName {    
+    font-weight: 400;
+    font-size: 17px;
+}
+
+.spendCategoryPrice {
+    font-weight: 400;
+    font-size: 22px;
+}
+
+.spendCategoryBar {
+    height: 5px;
+    width: 100%;
+    background: linear-gradient(90deg, #ECECEC 0%, #F2F1F1 111.47%);
+    position: relative;
+    border-radius: 2px;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}
+
+.spendCategoryColoredBar {
+    height: 5px;
+    width: 10%;
+    background: linear-gradient(90deg, #33D69F 0%, #50EDB8 111.47%);
+    position: absolute;
+    border-radius: 2px;
 }

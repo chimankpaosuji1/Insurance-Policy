@@ -103,6 +103,8 @@
 }
 
 .sidebarNavLink {
+    display: flex;
+    align-items: center;
     text-decoration: none;
     outline: none;
     color: #A2A4B9;
