@@ -20,7 +20,10 @@ export default function Header () {
                             } 
                             to={`/${headerNavLink}`}
                         >                         
-                           {headerNavLink.charAt(0).toUpperCase() + headerNavLink.slice(1)}
+                           <div className={styles.bottom}>
+                           <div>{headerNavLink.charAt(0).toUpperCase() + headerNavLink.slice(1)}</div>
+                           <div className={styles.bottomLine}></div>
+                           </div>
                         </Link>
                     </li>
                         )}

@@ -32,11 +32,6 @@
 .logo {
     display: flex;
     align-content: center;
-    // padding-left: 3rem;
-}
-
-.logoImg {
-
 }
 
 .logoName {
@@ -49,7 +44,6 @@
 }
 
 .profileImageDiv {
-    // padding-left: 6rem;
     margin-top: 22px;
 }
 
@@ -114,13 +108,15 @@
     &Actice {
         @extend .sidebarNavLink;
         color: #713BDB;
+        font-weight: 600;
     }
 }
 .icon {
     padding-right: 1rem;
     color: #A2A4B9;
-
 }
+
+
 
 .logout {
     display: flex;

@@ -38,8 +38,24 @@
     &Actice {
         @extend .headerNavLink;
         color: #713BDB;
+        font-weight: 600;
+        
+        .bottom {
+            display: flex;
+            flex-direction: column;
+            
+        }
+        .bottomLine {
+            height: 2px;
+            width: 2rem;
+            background: #713BDB;
+            display: block;
+            margin: auto;
+            margin-top: 5px;
+        }
     }
 }
+
 
 .headerNavItem {
     
