@@ -6,30 +6,30 @@ import agent from '../../components/assets/png/dasboard/agent.png'
 
 export default function Dashboard () {
 
-    const spendCategories = [
-        {
-            id: 1,
-            category: "Policy",
-            price: 100,
-        },
-        {
-            id: 2,
-            category: "Claim",
-            price: 800,            
-        },
-    ];
-    const spendCategories2 = [
-        {
-            id: 1,
-            category: "Policy",
-            price: 1100,
-        },
-        {
-            id: 2,
-            category: "Claim",
-            price: 1400,            
-        },
-    ];
+    // const spendCategories = [
+    //     {
+    //         id: 1,
+    //         category: "Policy",
+    //         price: 100,
+    //     },
+    //     {
+    //         id: 2,
+    //         category: "Claim",
+    //         price: 800,            
+    //     },
+    // ];
+    // const spendCategories2 = [
+    //     {
+    //         id: 1,
+    //         category: "Policy",
+    //         price: 1100,
+    //     },
+    //     {
+    //         id: 2,
+    //         category: "Claim",
+    //         price: 1400,            
+    //     },
+    // ];
     return (
         <>
          <main className={styles.dashboard}>
